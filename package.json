@@ -84,6 +84,5 @@
     "sass": "^1.32.8",
     "sass-loader": "10",
     "vconsole": "^3.3.4"
-  },
-  "type": "commonjs"
+  }
 }
