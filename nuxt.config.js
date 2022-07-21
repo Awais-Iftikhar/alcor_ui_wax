@@ -8,7 +8,9 @@ const isDev = process.env.npm_lifecycle_event == 'dev' || process.argv.includes(
 
 module.exports = {
   telemetry: false,
-
+  server: {
+    port: process.env.PORT || 80
+  },
   env: {
     isDev,
     isSPA,
